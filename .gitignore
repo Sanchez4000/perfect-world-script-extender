@@ -1,0 +1,9 @@
+# Артефакты сборки (dev)
+build/
+*.o
+
+# Мусор ОС/редакторов
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

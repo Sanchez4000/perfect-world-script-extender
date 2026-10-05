@@ -1,0 +1,8 @@
+#!/bin/bash
+# PWSE — обёртка-стартер.
+# Запускает боевое ядро сервера (gs.real) с подгрузкой загрузчика PWSE.
+# Устанавливается рядом с gs.real (каталог gamed). argv[0] сохраняется как
+# "./gs", чтобы административная панель корректно определяла процессы карт.
+cd "$(dirname "$0")" || exit 1
+export LD_PRELOAD="$PWD/pwse_loader.so${LD_PRELOAD:+:$LD_PRELOAD}"
+exec -a "./gs" "./gs.real" "$@"

@@ -1,0 +1,22 @@
+PWSE
+Copyright (C) 2026 PWSE authors
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License version 3, as published by the Free
+Software Foundation. The full text is in the LICENSE file.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY
+WARRANTY. See the GNU GPL v3 for details.
+
+--------------------------------------------------------------------------------
+Third-party components
+--------------------------------------------------------------------------------
+
+subhook  (PWSE-Source/vendor/subhook/)
+    Copyright (c) 2012-2018 Zeex
+    License: BSD 2-Clause.
+    Full text: PWSE-Source/vendor/subhook/LICENSE.txt
+    The copyright notice is retained on redistribution per the BSD terms.
+
+The BSD 2-Clause license is compatible with the GNU GPL v3: subhook is bundled
+within PWSE with its original copyright notice preserved.
